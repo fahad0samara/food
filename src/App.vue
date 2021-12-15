@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <heder/>
+  <sectiion/>
+  <muen/>
+  <footerr/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import heder from './components/heder.vue'
+import sectiion from './components/sectiion.vue'
+import muen from './components/muen.vue'
+import footerr from './components/footerr.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    heder,
+    sectiion,
+    muen,
+    footerr
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
